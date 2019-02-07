@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -55,7 +53,8 @@
   <div class="row">
       <div class="col-lg-12">
         <p>Tracking do que eu mexo só pra eu não me perder:</p>
-	<ul>
+	       <ul>
+            <li>07/02/2019.6 - Adicionando esse código no git pra eu não pensar em tacar fogo no PC toda vez que edito ele. Clonagem ainda tá manual, porque o mundo não foi feito em um dia</li>
             <li>07/02/2019.5 - Adicionando link do Facebook pra caso um alienígena me abduza e eu esqueça quem eu sou... Ou só pra passar vergonha no futuro quando eu acessar isso daqui mesmo...</li>
             <li>07/02/2019.4 - Instalando PHPzão da Massa™, MySQL, Node, Npm, Composer, Git, Docker e essas coisa aí</li>
             <li>07/02/2019.3 - Chorando enquanto desliza pela parede por isso não tá no github e sendo feito deploy automático ainda.</li>
