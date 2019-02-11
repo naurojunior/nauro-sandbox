@@ -18,6 +18,7 @@ class Changelog extends Component {
 		            <div className="col-lg-12">
 		              <p>Tracking do que eu mexo só pra eu não me perder:</p>
 		               <ul>
+						  <li>11/02/2019.4 - Lendo H.P. Lovecraft, questionando a existência desse site e da minha própria, enquanto eu poderia estar dormindo...</li>
 						  <li>11/02/2019.3 - Adicionando "Por Que?" e "Changelog"</li>
 						  <li>11/02/2019.2 - Adicionando rotas</li>
 		                  <li>11/02/2019.1 - Adicionando Analytics</li>
@@ -25,8 +26,8 @@ class Changelog extends Component {
 		                  <li>08/02/2019.1 - Convertendo pra ReactJS. Por enquanto o código é porco, mas pelo menos é react ¯\_(ツ)_/¯</li>
 		                  <li>07/02/2019.6 - Adicionando esse código no git pra eu não pensar em tacar fogo no PC toda vez que edito ele. Clonagem ainda tá manual, porque o mundo não foi feito em um dia</li>
 		                  <li>07/02/2019.5 - Adicionando link do Facebook pra caso um alienígena me abduza e eu esqueça quem eu sou... Ou só pra passar vergonha no futuro quando eu acessar isso daqui mesmo...</li>
-		                  <li>07/02/2019.4 - Instalando PHPzão da Massa™, MySQL, Node, Npm, Composer, Git, Docker e essas coisa aí</li>
-		                  <li>07/02/2019.3 - Chorando enquanto desliza pela parede por isso não tá no github e sendo feito deploy automático ainda.</li>
+		                  <li>07/02/2019.4 - Instalando PHPzão da Massa™, MySQL, Node, Npm, Composer, Git, Leiningen, Docker e essas coisa aí</li>
+		                  <li>07/02/2019.3 - Chorando enquanto desliza pela parede por isso não tá no github e sendo feito deploy manual ainda.</li>
 		                  <li>07/02/2019.2 - Adicionando texto do sandbox e imagem</li>
 		                  <li>07/02/2019.1 - Adicionando SSL e forçando https</li>
 		                  <li>06/02/2019 - Adicionando esse template qualquer</li> 
