@@ -23,6 +23,10 @@ class Home extends Component {
 		          <div className="col-lg-12">
 		              <a target="_blank" href="https://www.facebook.com/naurojunior"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-32.png" /></a>
 		          </div>
+		          <div className="col-lg-12">
+		              <i>P.S: Se você quiser me adicionar no Facebook, seja por curiosidade, seja pra me perguntar alguma coisa, vá em frente. Eu sou legal :D Falo besteiras aleatórias,
+		              converso sobre QUALQUER assunto e faço comentários engraçados quando possível. Se quiser tomar uma cerveja comigo, eu pago uma rodada!</i>
+		          </div>
 		        </div>
 		      </div>);
 		}
