@@ -3,7 +3,25 @@ import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import './Kick.css';
 
+import axios from 'axios';
+
 class Kick extends Component {
+
+	constructor(props) {
+        super(props);
+        this.state = {videos: []};
+    }
+
+    async componentDidMount() {
+        const api = process.env.REACT_APP_API_URL;
+        const response = await axios.get('http://localhost:4000/');
+        const videos = response.data;
+
+        this.setState({
+            videos
+        });
+    }
+
 	render(){
 		return(<div>
 		        <Navbar />
@@ -15,15 +33,13 @@ class Kick extends Component {
 	        		 </div>
 		          </div>
 		          <div className="row">
-	        		<div className="col-lg-4 text-center">
-		        		<iframe src="https://www.youtube.com/embed/jzyffOCemOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		        	</div>
-		        	<div className="col-lg-4 text-center">
-		        		<iframe src="https://www.youtube.com/embed/KAo2nmVlfOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		        	</div>
-		        	<div className="col-lg-4 text-center">
-		        		<iframe src="https://www.youtube.com/embed/9w3o9NHXqu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		        	</div>
+		          	{this.state.videos.map(video => (
+		          		<React.Fragment key={video.id} >
+			        	<div className="col-lg-4 text-center" >
+			        		<iframe src={ "https://www.youtube.com/embed/" + video.id } frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+			        	</div>
+			        	</React.Fragment>
+		        	))}
 		        	</div>
 		        </div>
 		      </div>);

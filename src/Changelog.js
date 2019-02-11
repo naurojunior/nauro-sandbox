@@ -18,6 +18,8 @@ class Changelog extends Component {
 		            <div className="col-lg-12">
 		              <p>Tracking do que eu mexo só pra eu não me perder:</p>
 		               <ul>
+						  <li>11/02/2019.7 - Alteração da página para buscar as informações do servidor.</li>
+						  <li>11/02/2019.6 - Criação de server com NodeJs para servir os links dos vídeos.</li>
 						  <li>11/02/2019.5 - Adicionando coices, pra me lembrar sobre a vida e pensamentos que não deveriam nunca sair da cabeça</li>
 						  <li>11/02/2019.4 - Lendo H.P. Lovecraft, questionando a existência desse site e da minha própria, enquanto eu poderia estar dormindo...</li>
 						  <li>11/02/2019.3 - Adicionando "Por Que?" e "Changelog"</li>
