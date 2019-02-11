@@ -20,6 +20,11 @@ class Home extends Component {
 		                <p><img className="img-fluid" src="https://i.pinimg.com/originals/6b/b7/ed/6bb7ed87e2f041324a2d2e8c6fc70c8d.jpg" /></p>
 		            </div>
 		        </div>
+		        <div className="row">
+		            <div className="col-lg-12 text-center">
+		                <p>Lendo Atualmente: Clean Code - Robert Cecil Martin</p>
+		           </div>
+		        </div>
 		          <div className="col-lg-12">
 		              <a target="_blank" href="https://www.facebook.com/naurojunior"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-32.png" /></a>
 		          </div>
