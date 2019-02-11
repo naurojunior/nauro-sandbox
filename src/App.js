@@ -7,6 +7,7 @@ import './App.css';
 import Home from './Home';
 import Why from './Why';
 import Changelog from './Changelog';
+import Kick from './Kick';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path="/home" exact={true} component={Home} />
             <Route path="/why" component={Why} />
             <Route path="/changelog" component={Changelog} />
+            <Route path="/kicks" component={Kick} />
         </Switch>
         </BrowserRouter>
     </div>

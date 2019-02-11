@@ -16,6 +16,11 @@ class Navbar extends Component {
 		                    <span className="sr-only">(current)</span>
 		                  </Link>
 		                </li>
+		                 <li className="nav-item active">
+		                  <Link to="/kicks" className="nav-link">Coices
+		                    <span className="sr-only">(current)</span>
+		                  </Link>
+		                </li>
 		                <li className="nav-item active">
 		                  <Link to="/changelog" className="nav-link">Changelog
 		                    <span className="sr-only">(current)</span>
