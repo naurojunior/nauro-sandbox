@@ -24,7 +24,7 @@ class Why extends Component {
 		        	sem cobranças, sem prazos, sem objetivos finais...</p>
 		        	<p>O tipo de coisa que eu faria se eu tivesse todo o tempo do mundo e não precisasse
 		        	fazer mais nada. Algo que talvez ninguém nunca irá ver, mas que eu pudesse mostrar meu potencial pra mim mesmo :) Algo que eu pudesse inventar o que for, mostrar que dados quiser, experimentar e ir melhorando devagarzinho.</p>
-		        	<p><i>P.S: Se você por algum motivo do destino acabou caindo aqui e tem curiosidade, acessa às vezes... Toda semana vai ter
+		        	<p><i>P.S: Se você por algum motivo do destino acabou caindo aqui e tem curiosidade, bem... Toda semana vai ter
 		        	alguma atualização... Pode ser ruim? Pode. Pode ser pequena? Pode... mas é o que tem pra hoje. É uma demonstração apaixonada
 		        	de programação que eu posso dar.</i></p>
 		        	</div>
