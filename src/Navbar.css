@@ -1,0 +1,9 @@
+.nav-item:not(:first-child){
+	border-left: 1px solid #CCC;
+}
+
+.navbar-nav{
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	line-height: 15px;
+}
