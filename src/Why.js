@@ -10,7 +10,7 @@ class Why extends Component {
 		        <div className="container">
 		          <div className="row">
 		            <div className="col-lg-12 text-center">
-		              <h1 className="mt-5">Nauro's Wooden Box</h1>
+		              <h1 className="mt-5">Wooden Box</h1>
 		              <p className="lead">Por que criar um site assim?</p>
 		            </div>
 		          </div>

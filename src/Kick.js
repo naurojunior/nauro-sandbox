@@ -14,7 +14,7 @@ class Kick extends Component {
 
     async componentDidMount() {
         const api = process.env.REACT_APP_API_URL;
-        const response = await axios.get('http://localhost:4000/');
+        const response = await axios.get('https://nauro.com.br:4000/');
         const videos = response.data;
 
         this.setState({
@@ -28,7 +28,7 @@ class Kick extends Component {
 		        <div className="container">
 		        <div className="row">
 		            <div className="col-lg-12 text-center">
-		              <h1 className="mt-5">Nauro's Sandbox</h1>
+		              <h1 className="mt-5">Kicks!</h1>
 		          	<p>Pequenos coices diários na vida que merecem ser relembrados e vistos sempre que possível</p>
 	        		 </div>
 		          </div>

@@ -10,7 +10,7 @@ class Changelog extends Component {
 		        <div className="container">
 		          <div className="row">
 		            <div className="col-lg-12 text-center">
-		              <h1 className="mt-5">Nauro's Sandbox</h1>
+		              <h1 className="mt-5">Changelog</h1>
 		              <p className="lead">Changelog das PARADA</p>
 		            </div>
 		          </div>
@@ -18,6 +18,8 @@ class Changelog extends Component {
 		            <div className="col-lg-12">
 		              <p>Tracking do que eu mexo só pra eu não me perder:</p>
 		               <ul>
+						  <li>12/02/2019.2 - Adição de um css separador no menu superior</li>
+						  <li>12/02/2019.1 - Adição de página "techs"</li>
 						  <li>11/02/2019.7 - Alteração da página para buscar as informações do servidor.</li>
 						  <li>11/02/2019.6 - Criação de server com NodeJs para servir os links dos vídeos.</li>
 						  <li>11/02/2019.5 - Adicionando coices, pra me lembrar sobre a vida e pensamentos que não deveriam nunca sair da cabeça</li>
