@@ -32,6 +32,11 @@ class Navbar extends Component {
 		                    <span className="sr-only">(current)</span>
 		                  </Link>
 		                </li>
+		                <li className="nav-item active">
+		                  <a href="https://app.nauro.com.br" className="nav-link">App
+		                    <span className="sr-only">(current)</span>
+		                  </a>
+		                </li>
 		              </ul>
 		            </div>
 		          </div>

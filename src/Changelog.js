@@ -18,6 +18,10 @@ class Changelog extends Component {
 		            <div className="col-lg-12">
 		              <p>Tracking do que eu mexo só pra eu não me perder:</p>
 		               <ul>
+						  <li>13/02/2019.4 - Adição de uma página em construção absurdamente horrível do app! De alguma forma, criei um carinho nostálgico especial por ela :/</li>
+						  <li>13/02/2019.3 - Adição de link no topo da página pro app.</li>
+						  <li>13/02/2019.2 - Adição de certificado para "app.nauro.com.br"</li>
+						  <li>13/02/2019.1 - Adição de domínio "app.nauro.com.br"</li>
 						  <li>12/02/2019.4 - <s>Pensando sobre o paradoxo do Navio de Teseu ser aplicado sobre o cérebro humano, como a consciência emerge e como seria modificada aos poucos...</s> Vendo vídeo de cachorrinhos e gatinhos fofos.</li>
 						  <li>12/02/2019.3 - Adição de rewrite de URL para evitar problemas de "not found" quando aberto uma subpágina (/changelog por exemplo)</li>
 						  <li>12/02/2019.2 - Adição de um css separador no menu superior</li>
