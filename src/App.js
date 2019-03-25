@@ -9,6 +9,7 @@ import Why from './Why';
 import Changelog from './Changelog';
 import Kick from './Kick';
 import Tech from './Tech';
+import Tumblr from './Tumblr';
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
             <Route path="/changelog" component={Changelog} />
             <Route path="/kicks" component={Kick} />
             <Route path="/tech" component={Tech} />
+            <Route path="/tumblr" component={Tumblr} />
         </Switch>
         </BrowserRouter>
     </div>

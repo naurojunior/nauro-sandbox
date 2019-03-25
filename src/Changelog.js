@@ -18,6 +18,9 @@ class Changelog extends Component {
 		            <div className="col-lg-12">
 		              <p>Tracking do que eu mexo só pra eu não me perder:</p>
 		               <ul>
+						  <li>25/03/2019.2 - Instalação do Mosca, MongoDB e subindo servidor MQTT para automatização em casa</li>
+						  <li>25/03/2019.1 - Um mês parado aprendendo a mexer com Arduino e NodeMCU</li>
+						  <li>16/03/2019 - Adição de script para realizar crawling de posts do Tumblr</li>
 						  <li>22/02/2019 - Alteração do serviço do NodeJS para buscar os vídeos de uma playlist do Youtube</li>
 						  <li>13/02/2019.4 - Adição de uma página em construção absurdamente horrível do app! De alguma forma, criei um carinho nostálgico especial por ela :/</li>
 						  <li>13/02/2019.3 - Adição de link no topo da página pro app.</li>
